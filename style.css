@@ -1,0 +1,92 @@
+html {
+	height: 100%;
+}
+
+header {
+	
+	flex-basis: 100%;
+  	height: 120px;
+  	margin: 50px 0 50px 0;
+}
+
+header p {
+	color: white;
+	font-size: 50px;
+	font-family: 'Changa';
+}
+
+header p span {
+	font-family: 'Caveat';
+	font-size: 30px;
+}
+
+body {
+	background: linear-gradient(#9ebcb6, #ffffff);
+	text-align: center;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	color: #30a890;
+}
+
+.content {
+	flex-basis: 40%;
+   	height: 400px;
+   	font-family: 'Josefin Slab';
+}
+
+
+.flex-container {
+	  padding: 0;
+	  margin: 50px 0 50px 0;
+	  list-style: none;
+	  display: flex;
+	  flex-flow: row wrap;
+	  justify-content: space-around;
+}
+
+
+.container li {
+	color:#0d5446;
+	list-style-type: none;
+}
+
+.figures {
+	display: inline-block;
+
+}
+
+.square {
+	height: 100px;
+	width: 100px;
+	border: 2px solid white;
+	background-color: #616c99;
+	
+}
+
+.circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background-color: #c477ad;
+
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+}
+
+.triangle.bottom {
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #c477ad;
+}
+
+footer {
+	flex-basis: 100%;
+    height: 50px;
+    text-align: left;
+
+}
